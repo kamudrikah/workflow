@@ -2,9 +2,15 @@
 
 class Hook extends CI_Controller {
 
+	public function __construct()
+	{
+		parent::__construct();
+		exec(`git pull`);
+	}
+
 	public function index()
 	{
-		`git pull`;
+		exec(`git pull`);
 	}
 }
 
