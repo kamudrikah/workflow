@@ -48,7 +48,7 @@
 
 $config['git_path'] = '/usr/local/bin/git';
 $config['github'] = array(
-    'php-git-deploy' => array(
-        'master' => array('base_path' => '/home/git/test/PHP-Git-Deploy/')
+    'workflow' => array(
+        'master' => array('base_path' => '/Applications/MAMP/htdocs')
     )
 );
