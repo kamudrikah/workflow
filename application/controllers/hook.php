@@ -4,7 +4,8 @@ class Hook extends CI_Controller {
 
 	public function index()
 	{
-		exec("git pull");
+		$result = file_get_contents('http://requestb.in/18kij381');
+    	echo $result;
 	}
 }
 
