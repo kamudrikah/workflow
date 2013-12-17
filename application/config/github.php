@@ -47,7 +47,7 @@
  */
 
 //$config['git_path'] = '/usr/local/bin/git';
-$config['git_path'] = '/usr/local/bin/git';
+$config['git_path'] = '/Applications/MAMP/htdocs/workflow';
 $config['github'] = array(
     'workflow' => array(
         'master' => array('base_path' => '/Applications/MAMP/htdocs/workflow')
