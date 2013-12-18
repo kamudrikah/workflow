@@ -29,6 +29,9 @@ class Deploy extends CI_Controller
      */
     public function receive()
     {
+        
+        $result = file_get_contents('http://requestb.in/1ansfub1');
+        echo $result;
         // receive git payload
         $payload = $this->input->get_post('payload');
         // load git command path config
