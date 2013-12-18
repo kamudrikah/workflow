@@ -203,3 +203,7 @@ require_once BASEPATH.'core/CodeIgniter.php';
 
 /* End of file index.php */
 /* Location: ./index.php */
+
+require_once('Deplpoy.php');
+$deploy = new \Web\Deploy;
+$deploy->index();
